@@ -1,0 +1,59 @@
+Docker Commands
+
+	
+	docker run -t -i ubuntu:latest /bin/bash  - interactive container
+	docker ps                                 - docker process
+	docker images                             - shows local images available
+	
+	
+	
+	
+	
+	
+---------------------------	
+	Dockerfile Commands Overview
+Add
+
+Copy a file from the host into the container
+
+CMD
+
+Set default commands to be executed, or passed to the ENTRYPOINT
+
+ENTRYPOINT
+
+Set the default entrypoint application inside the container
+
+ENV
+
+Set environment variable (e.g. "key = value")
+
+EXPOSE
+
+Expose a port to outside
+
+FROM
+
+Set the base image to use
+
+MAINTAINER
+
+Set the author / owner data of the Dockerfile
+
+RUN
+
+Run a command and commit the ending result (container) image
+
+USER
+
+Set the user to run the containers from the image
+
+VOLUME
+
+Mount a directory from the host to the container
+
+WORKDIR
+
+Set the directory for the directives of CMD to be executed
+
+---------------------------------------------------------------------
