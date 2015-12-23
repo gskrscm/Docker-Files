@@ -1,11 +1,19 @@
+
+Dockerfile ---> Docker Image ---> Docker Container 	
+
 Docker Commands
 
 	
-	docker run -t -i ubuntu:latest /bin/bash  - interactive container
+	docker run -t -i ubuntu:latest //bin/bash  - interactive container
 	docker ps                                 - docker process
 	docker images                             - shows local images available
+	docker build -t <imagename> .             - Build an image from 'Dockerfile'
 	
+	docker stop <container name>			  - To stop a running container
+	docker exec -it <containerIdOrName> bash   -> To connect to running container bash prompt.
 	
+	For Windows: 
+	docker-machine ls                         - Ip Address for docker linux vm
 	
 	
 	
