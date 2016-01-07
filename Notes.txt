@@ -17,6 +17,12 @@ Docker Basic Commands
 	
 	docker run -d -P tomcat:7                - default tomcat process run, in detach mode, and also port is mapped. 
 	
+	
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
+	
 	For Windows: 
 	docker-machine ls                         - Ip Address for docker linux vm
 	
